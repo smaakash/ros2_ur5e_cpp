@@ -1,0 +1,19 @@
+# Ignore build directories and compiled binaries
+build/
+install/
+log/
+bin/
+lib/
+
+# Ignore CMake cache and temp files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore Colcon-generated files
+colcon.log
+log_latest/
